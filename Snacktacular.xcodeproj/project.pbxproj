@@ -13,6 +13,9 @@
 		4385CCA22730231500D8A64B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4385CCA02730231500D8A64B /* Main.storyboard */; };
 		4385CCA42730231800D8A64B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4385CCA32730231800D8A64B /* Assets.xcassets */; };
 		4385CCA72730231800D8A64B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4385CCA52730231800D8A64B /* LaunchScreen.storyboard */; };
+		4385CCAF273028B800D8A64B /* SpotListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385CCAE273028B800D8A64B /* SpotListViewController.swift */; };
+		4385CCB127302AAD00D8A64B /* SpotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385CCB027302AAD00D8A64B /* SpotTableViewCell.swift */; };
+		4385CCB327302E0400D8A64B /* SpotDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385CCB227302E0400D8A64B /* SpotDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		4385CCA32730231800D8A64B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4385CCA62730231800D8A64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4385CCA82730231800D8A64B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4385CCAE273028B800D8A64B /* SpotListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotListViewController.swift; sourceTree = "<group>"; };
+		4385CCB027302AAD00D8A64B /* SpotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTableViewCell.swift; sourceTree = "<group>"; };
+		4385CCB227302E0400D8A64B /* SpotDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				4385CC9A2730231500D8A64B /* AppDelegate.swift */,
 				4385CC9C2730231500D8A64B /* SceneDelegate.swift */,
 				4385CC9E2730231500D8A64B /* LoginViewController.swift */,
+				4385CCAE273028B800D8A64B /* SpotListViewController.swift */,
+				4385CCB027302AAD00D8A64B /* SpotTableViewCell.swift */,
+				4385CCB227302E0400D8A64B /* SpotDetailViewController.swift */,
 				4385CCA02730231500D8A64B /* Main.storyboard */,
 				4385CCA32730231800D8A64B /* Assets.xcassets */,
 				4385CCA52730231800D8A64B /* LaunchScreen.storyboard */,
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4385CCAF273028B800D8A64B /* SpotListViewController.swift in Sources */,
 				4385CC9F2730231500D8A64B /* LoginViewController.swift in Sources */,
 				4385CC9B2730231500D8A64B /* AppDelegate.swift in Sources */,
+				4385CCB327302E0400D8A64B /* SpotDetailViewController.swift in Sources */,
+				4385CCB127302AAD00D8A64B /* SpotTableViewCell.swift in Sources */,
 				4385CC9D2730231500D8A64B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
