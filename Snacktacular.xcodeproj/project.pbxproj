@@ -16,6 +16,7 @@
 		4385CCAF273028B800D8A64B /* SpotListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385CCAE273028B800D8A64B /* SpotListViewController.swift */; };
 		4385CCB127302AAD00D8A64B /* SpotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385CCB027302AAD00D8A64B /* SpotTableViewCell.swift */; };
 		4385CCB327302E0400D8A64B /* SpotDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385CCB227302E0400D8A64B /* SpotDetailViewController.swift */; };
+		438CF2F427304DC600BF1A6C /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438CF2F327304DC600BF1A6C /* Spot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4385CCAE273028B800D8A64B /* SpotListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotListViewController.swift; sourceTree = "<group>"; };
 		4385CCB027302AAD00D8A64B /* SpotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTableViewCell.swift; sourceTree = "<group>"; };
 		4385CCB227302E0400D8A64B /* SpotDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailViewController.swift; sourceTree = "<group>"; };
+		438CF2F327304DC600BF1A6C /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				4385CC9A2730231500D8A64B /* AppDelegate.swift */,
 				4385CC9C2730231500D8A64B /* SceneDelegate.swift */,
+				438CF2F327304DC600BF1A6C /* Spot.swift */,
 				4385CC9E2730231500D8A64B /* LoginViewController.swift */,
 				4385CCAE273028B800D8A64B /* SpotListViewController.swift */,
 				4385CCB027302AAD00D8A64B /* SpotTableViewCell.swift */,
@@ -151,6 +154,7 @@
 				4385CC9B2730231500D8A64B /* AppDelegate.swift in Sources */,
 				4385CCB327302E0400D8A64B /* SpotDetailViewController.swift in Sources */,
 				4385CCB127302AAD00D8A64B /* SpotTableViewCell.swift in Sources */,
+				438CF2F427304DC600BF1A6C /* Spot.swift in Sources */,
 				4385CC9D2730231500D8A64B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
